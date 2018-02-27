@@ -1,0 +1,62 @@
+{
+  "SoilCollection": [
+    {
+      "Name": "Zand",
+      "SoilGamDry": 20.0,
+      "SoilCohesion": 0.0,
+      "SoilPhi": 45.0,
+      "SoilDilatancy": 45.0
+    }
+  ],
+  "Geometry": {
+    "Nodes": [
+      {
+        "X": 0.0,
+        "Z": 100.0
+      },
+      {
+        "X": 100.0,
+        "Z": 0.0
+      },
+      {
+        "X": 0.0,
+        "Z": -50.0
+      },
+      {
+        "X": 100.0,
+        "Z": -50.0
+      }
+    ],
+    "Layers": [
+      {
+        "Area": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "Material": "Zand"
+      }
+    ]
+  },
+  "Lem": [
+    "LiftVan"
+  ],
+  "Circles": [
+    {
+      SearchSpace:[
+      ["X1Value": 66.0,
+      "Y1Value": 52.5,
+      "X2Value": 66.0,
+      "Y2Value": 52.5,
+      "TangentValue": 39.35],
+      ["X1Value": 66.0,
+      "Y1Value": 52.5,
+      "X2Value": 66.0,
+      "Y2Value": 52.5,
+      "TangentValue": 39.35]
+      ]
+      SearchParams: argsAPSO
+    }
+  ]
+}

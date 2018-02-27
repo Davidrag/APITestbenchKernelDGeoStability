@@ -1,0 +1,85 @@
+{
+  "SoilCollection": [
+    {
+      "Name": "Zand",
+      "SoilGamDry": 20.0,
+      "SoilCohesion": 0.0,
+      "SoilPhi": 45.0,
+      "SoilDilatancy": 45.0
+    }
+  ],
+  "Geometry": {
+    "Nodes": [
+      {
+        "X": 0.0,
+        "Z": 100.0
+      },
+      {
+        "X": 100.0,
+        "Z": 0.0
+      },
+      {
+        "X": 0.0,
+        "Z": -50.0
+      },
+      {
+        "X": 100.0,
+        "Z": -50.0
+      }
+    ],
+    "Layers": [
+      {
+        "Area": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "Material": "Zand"
+      }
+    ]
+  },
+  "Lem": [
+    "Spencer"
+  ],
+  "Plane": [
+    {
+      SearchSpace:[
+      ["X1": 66.0,
+      "Y1": 52.5,
+      "X2": 66.0,
+      "Y2": 52.5,
+      ...
+      "Xn": 66.0,
+      "Yn": 52.5],
+      ["X1": 66.0,
+      "Y1": 52.5,
+      "X2": 66.0,
+      "Y2": 52.5,
+      ...
+      "Xn": 66.0,
+      "Yn": 52.5]
+      ]
+      SearchParams: 
+      {
+        "Population": {
+                "PopulationCount" : 50,
+                "GenerationCount" : 50,
+                "EliteCount" : 2,
+                "MutationRate" : 0.3
+        },
+        "CrossOverMethod" : {
+                "Scatter" : 0.0,
+                "SinglePoint" : 0.70,
+                "DoublePoint" : 0.30
+        },
+        "MutationMethod" : {
+                "Jump" : 0.000,
+                "Creep" : 0.900,
+                "Inverse" : 0.100,
+                "CreepReduction" : 0.05
+        }
+      }
+    }
+  ]
+}

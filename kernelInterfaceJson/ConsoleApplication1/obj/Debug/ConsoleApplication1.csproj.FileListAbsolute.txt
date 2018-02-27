@@ -1,0 +1,8 @@
+D:\testing\DStability\json\pruebasC_sharp\kernelInterfaceJson\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+D:\testing\DStability\json\pruebasC_sharp\kernelInterfaceJson\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
+D:\testing\DStability\json\pruebasC_sharp\kernelInterfaceJson\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+D:\testing\DStability\json\pruebasC_sharp\kernelInterfaceJson\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+D:\testing\DStability\json\pruebasC_sharp\kernelInterfaceJson\ConsoleApplication1\bin\Debug\Newtonsoft.Json.dll
+D:\testing\DStability\json\pruebasC_sharp\kernelInterfaceJson\ConsoleApplication1\bin\Debug\Newtonsoft.Json.xml
+D:\testing\DStability\json\pruebasC_sharp\kernelInterfaceJson\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+D:\testing\DStability\json\pruebasC_sharp\kernelInterfaceJson\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
