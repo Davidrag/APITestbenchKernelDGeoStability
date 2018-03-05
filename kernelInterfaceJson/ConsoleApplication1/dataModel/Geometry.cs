@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApplication1.dataModel
+namespace ConsoleKernelAPI.dataModel
 {
     /// <summary>
     /// The <c>Node</c> class.
@@ -30,7 +30,7 @@ namespace ConsoleApplication1.dataModel
         public IList<int> Area { get; set; }
 
         /// <summary>
-        /// Name of the material assigned to this layer 
+        /// Description of the material assigned to this layer 
         /// </summary>
         public string Material { get; set; }
 

@@ -1,4 +1,4 @@
-﻿namespace ConsoleApplication1.dataModel
+﻿namespace ConsoleKernelAPI.dataModel
 {
     /// <summary>
     /// The basic <c>Soil</c> class.
@@ -7,7 +7,7 @@
     public class Soil
     {
         /// <summary>
-        /// Name of the soil [-]
+        /// Description of the soil [-]
         /// </summary>
         public string Name { get; set; }
         /// <summary>

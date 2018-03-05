@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApplication1.dataModel
+namespace ConsoleKernelAPI.dataModel
 {
     public class DataModel
     {
@@ -20,7 +20,8 @@ namespace ConsoleApplication1.dataModel
 
 
         /// <summary>
-        /// Settings defining the specific calculation that needs to be carried out
+        /// Settings defining the Limit Equilibrium Method (LEM) to use
+        /// and its specific settings
         /// </summary>
         public IList<string> Lem { get; set; }
 

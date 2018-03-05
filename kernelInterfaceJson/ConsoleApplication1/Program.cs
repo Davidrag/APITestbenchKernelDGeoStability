@@ -4,11 +4,11 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using ConsoleApplication1.dataModel;
+using ConsoleKernelAPI.dataModel;
 using Newtonsoft.Json;
 
 
-namespace ConsoleApplication1
+namespace ConsoleKernelAPI
 {
     class Program
     {
@@ -18,7 +18,7 @@ namespace ConsoleApplication1
 
 
             string jsonSoil =
-                @"{'SoilCollection':[{'Name':'Zand','SoilGamDry':20,'SoilCohesion':0,'SoilPhi':45,'SoilDilatancy':45}]}";
+                @"{'SoilCollection':[{'Description':'Zand','SoilGamDry':20,'SoilCohesion':0,'SoilPhi':45,'SoilDilatancy':45}]}";
 
             string jsonLEM = @"{'Lem': ['Bishop']}";
 
@@ -34,7 +34,7 @@ namespace ConsoleApplication1
                                     }";
 
             string jsonAll = @"{
-                                        'SoilCollection':[{'Name':'Zand','SoilGamDry':20,'SoilCohesion':0,'SoilPhi':45,'SoilDilatancy':45}],
+                                        'SoilCollection':[{'Description':'Zand','SoilGamDry':20,'SoilCohesion':0,'SoilPhi':45,'SoilDilatancy':45}],
                                         'Lem': ['Bishop'],
                                         'Circles': [ {'XValue': 66.0, 'YValue' : 52.5, 'TangentValue' : 39.35}],
                                         'Geometry':{'Nodes':[{'X': 0.000,'Z' : 100.000},

@@ -53,6 +53,12 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="dataModel\Soil.cs" />
+    <Compile Include="Solver\ILem.cs" />
+    <Compile Include="Solver\ISearchProcedure.cs" />
+    <Compile Include="Solver\ISlideSurface.cs" />
+    <Compile Include="Solver\Lem.cs" />
+    <Compile Include="Solver\SearchProcedures.cs" />
+    <Compile Include="Solver\SlideSurfaces.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

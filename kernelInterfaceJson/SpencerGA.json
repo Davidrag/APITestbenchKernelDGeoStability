@@ -42,13 +42,13 @@
   "Lem": [
     "Spencer"
   ],
-  "Plane": [
+  "SlideSurface": [
     {
-      SearchSpace:[
+      "SearchSpace":[
       ["X1": 66.0,
-      "Y1": 52.5,
+      "Z1": 52.5,
       "X2": 66.0,
-      "Y2": 52.5,
+      "Z2": 52.5,
       ...
       "Xn": 66.0,
       "Yn": 52.5],
@@ -62,23 +62,21 @@
       ]
       SearchParams: 
       {
-        "Population": {
-                "PopulationCount" : 50,
-                "GenerationCount" : 50,
-                "EliteCount" : 2,
-                "MutationRate" : 0.3
-        },
-        "CrossOverMethod" : {
-                "Scatter" : 0.0,
-                "SinglePoint" : 0.70,
-                "DoublePoint" : 0.30
-        },
-        "MutationMethod" : {
-                "Jump" : 0.000,
-                "Creep" : 0.900,
-                "Inverse" : 0.100,
-                "CreepReduction" : 0.05
+        
+        "PopulationCount" : 50,
+        "GenerationCount" : 50,
+        "EliteCount" : 2,
+        "MutationRate" : 0.3,
+        "ScatterFraction" : 0.0,
+        "SinglePointFraction" : 0.70, 
+        "DoublePointFraction" : 0.30, 
+        "JumpFraction" : 0.0,
+        "CreepFraction" : 0.90,
+        "InverseFraction" : 0.10,
+        "CreepReduction" : 0.05
         }
+        
+
       }
     }
   ]
